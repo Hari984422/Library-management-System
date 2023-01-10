@@ -1,0 +1,46 @@
+.navbar{
+    display: flex;
+justify-content: space-between  ;
+background-color: crimson;
+
+}
+
+.navbar h1{
+    color: rgb(255, 251, 6);
+}
+
+.navlist a:hover{
+    background-color: gold  ;
+    color: red;
+    border-radius: 40px;
+    
+
+    
+
+}
+
+
+.navlist a{
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: larger;
+    color: yellow;
+    transition: 1s;
+}
+
+.logo{
+    margin: 0 40px;
+}
+
+.navlist{
+    margin:  40px;
+}
+
+
+.navlist button{
+   width: 100px;
+    height: 30px;
+    background-color: gold;
+    border-radius: 10px;
+    
+}

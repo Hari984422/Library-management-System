@@ -1,0 +1,13 @@
+.users_section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.user_book{
+    border: 3px black solid;
+    background-color: aquamarine;
+    width: 300px;
+    
+
+}

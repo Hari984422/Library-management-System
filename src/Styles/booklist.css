@@ -1,0 +1,45 @@
+
+.books{
+    display: flex;
+    width: 1300px ;
+    height: 240px;
+    margin-bottom: 30px;
+    border-bottom: 2px black solid  ;
+    
+}
+
+.book_section{
+    background-color: ghostwhite    ;
+}
+
+.bookList{
+    text-align: center;
+}
+.book_name{
+    height: 300px ;
+    width: 140px;
+    margin: 10px 10px;
+}
+
+.bookauthors button{
+    width: 140px;
+    height: 40px;
+    transition: 1s;
+    background-color: rgb(199, 236, 143)  ;
+    color: white;
+    border-radius: 30px;
+    margin-left: 90px;
+}
+.bookauthors button:hover{
+    background-color: blue;
+    
+}
+
+.bookauthors{
+    text-align: left; 
+}
+
+
+
+
+

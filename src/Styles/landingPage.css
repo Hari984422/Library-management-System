@@ -1,0 +1,64 @@
+.landingPage { 
+    margin: 100px 290px;
+ text-align: center;
+ border: 9px solid midnightblue;
+ border-radius: 20px;
+ background-color: white    ;
+
+
+}
+.fullformPage{
+    background-image: url("/public/images/m1.jpg");
+    background-size: contain;
+}
+.selectLogin
+{
+    background-color: rgb(153, 213, 153);
+    display: inline;
+}
+
+.landingPage h1{
+    color: rgb(228, 104, 228);
+
+
+}
+.form_class
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 40px;
+
+}
+
+.admin_login a{
+    border: 5px solid yellow ;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: block;
+    
+    
+}
+
+
+
+.admin_login a:hover{
+    background-color: orange    ;
+    color: aliceblue;
+}
+
+.user_login a:hover{
+    background-color: orange;
+    color: aliceblue;
+}
+
+.user_login a{
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    border: 5px solid red;
+    border-radius: 10px ;
+
+    
+}
+

@@ -1,0 +1,47 @@
+.form{
+    text-align: center;
+    background-color: aqua;
+    margin: 100px 200px;
+    border: 1px solid green;
+    border-radius: 30px;
+}
+
+h1{
+    color: purple;
+}
+
+.email{
+    margin: 30px 0;
+
+}
+
+.email label{
+    padding-right:100px ;
+    font-size: 30px;
+    color: blue;
+
+}
+
+.password label{
+    padding-right: 45px;
+    font-size: 30px;
+    color: blue;
+}
+
+input{
+    height: 30px;
+    border: 3px solid red;
+    border-radius: 10px;
+    background-color: aqua  ;
+    
+}
+
+.form button{
+    margin: 30px 0;
+    width: 100px;
+    height: 30px;
+    color: crimson;
+    background-color: aqua;
+    font-size: 20px;
+    border-radius: 20px;
+}
