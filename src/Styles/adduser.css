@@ -1,4 +1,35 @@
-.adduser{
+.addUser{
+    margin: 30px 500px 30px 200px;  
     display: flex;
-    background-color: aquamarine;
+    background-color: rgb(160, 253, 255);
+    border: 6px solid black;
+    justify-content: center;
+    padding: 10px 0  90px 40px ; 
+    box-shadow: 10px 20px 30px black;
+}
+
+
+.addUser input{
+    margin:10px 200px;
+    display: flex;
+    background-color: azure;
+    border: 3px solid black;
+}
+.addUser label{
+    font-size: 20px;
+    margin: 0 10px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.addUser button{
+    width: 200px;
+    height: 40px;
+    margin: 30px 0 0 200px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    font-size: 30px;
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

@@ -9,7 +9,7 @@ const AdminLogin = () => {
     let handleLogin = (e) => { //e is the parameter used to e.preventDefault no need to give e as parameter when we are calling this metoh in the program
         e.preventDefault(); //avoid page reloading whrn we press submit button and gives output in the same page
         // codition to login
-            if (email == "admin" && password == 1234) {
+            if (email == "admin@gmail.com" && password == 1234) {
              navigate('/admin')
             }
             else{
@@ -30,7 +30,7 @@ const AdminLogin = () => {
                    <div className="email">
                    <label htmlFor="">Email</label>
                    <br />
-                   <input required type="text" value={email} onChange={(e) => setemail(e.target.value)} placeholder="Enter your email" />
+                   <input required type="email" value={email} onChange={(e) => setemail(e.target.value)} placeholder="Enter your email" />
                    </div>
                    <div className="password">
                    <label htmlFor="">Password</label>

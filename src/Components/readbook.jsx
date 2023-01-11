@@ -15,7 +15,7 @@ const ReadBook = () => {
 },[])
     
     return ( 
-       <div className="rb">
+       <div className="readbook">
        <h1>Read Books</h1>
         <h3>{daata.shortDescription}</h3>
         <h4>{daata.longDescription}</h4>

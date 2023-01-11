@@ -16,7 +16,7 @@ const Admin_HomePage = () => {
             <Route path='/' element={<AdminDash/>}/>
             <Route path='/booklist' element={<Booklist/>}/>
             <Route path='/userlist' element={<Userlist/>}/>
-            <Route path='/booklist/:id' element={<ReadBook/>}/>
+            <Route path="/booklist/:id" element={<ReadBook/>}/>
             <Route path='/adduser' element={<AddUser/>}/>
             <Route path='/addbooks' element={<AddBooks/>}/>
 

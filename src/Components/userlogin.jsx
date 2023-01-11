@@ -11,7 +11,7 @@ const UserLogin = () => {
     {
         e.preventDefault(); //Stopping reloading 
         console.log(data);
-        navigate('/user-login/') //navigating to user-login home page
+        navigate('/user/') //navigating to user-login home page
     }
     return(
         <div className="userLogin">
