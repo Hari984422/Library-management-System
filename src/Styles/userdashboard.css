@@ -1,0 +1,123 @@
+/* .search{
+    background-color: midnightblue;
+    color: white;
+    margin: 0 5px;
+    padding: 10px;
+    width: 886px;
+}
+.search h1{
+    color: white;
+    margin: 0;
+}
+.search input{
+    width: 75%;
+    height: 40px;
+    background-color: white;
+    border: 3px midnightblue solid;
+    border-radius:0px ;
+    margin: 0;
+}
+
+.search a{
+    color: white;
+    margin: 0 20px;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.both{
+    display: flex;
+}
+
+.openday{
+    background-color: #0058aa;
+    color: white;
+    width: 450px;
+    padding: 15px;
+    margin: 7.5px ;
+    font-size: 20px;
+    
+}
+.openday h1{
+    color: white;
+}
+
+.openday a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.open2{
+    background-color: #89e9d7;
+    margin: 7.5px;
+    padding: 15px;
+    color: indigo;
+    font-size: 20px
+}
+
+.open2 h1{
+    color: indigo;
+}
+
+.open2 a{
+    text-decoration: none;
+    color: indigo;
+}
+
+.description{
+    background-color: #cbc9cc;
+    width: 300px;
+    box-sizing: inherit;
+    font-size: 20px;
+    margin: 7.5;
+    padding: 15px;
+}
+
+.description a{
+    text-decoration: none;
+    font-size: 20px;
+    color: inherit;
+}
+
+.UserDashBoard{
+    margin: 20px;
+    display: flex;
+} */
+
+.userdetails img{
+  
+    margin-left: 160px; 
+    width: 900px;
+    height: 200px; 
+    
+   
+
+}
+.userdetails{
+    width: 500px;
+
+}
+
+.details{
+  padding: 10px; 
+  background-image: url(/public//images/bg1.gif);  
+  margin-top: -120px; 
+  margin-left: 350px;
+  position: absolute;
+  width: 500px;
+  background-color: white;
+  box-shadow: 5px 10px 10px grey;
+
+
+}
+
+.userdetails h2{
+    border-bottom: 3px solid orange;
+    margin-right: 200px;
+}
+
+.userdetails a{
+    color: orange;
+}
+

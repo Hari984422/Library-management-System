@@ -17,7 +17,7 @@ const Booklist = () => {
 
             
         } else {
-            // go to admin portal ,one route with "/booklist:id" is hter we need to add that to user portal beacause we that will jus
+            // go to admin portal ,one route with "/booklist:id" is there we need to add that to user portal beacause we that will just
             navigate(`/user/booklist/${id}`)
         }
 
